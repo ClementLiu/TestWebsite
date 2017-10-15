@@ -4,14 +4,61 @@
 <head>
     <title></title>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style type="text/css">
+    .letters {
+        width: 20px;
+        height: 20px;
+        /*background-color: red;*/
+        fill: white; 
+        border-color: black;
+        border-width: 1px;
+        position: absolute;
+        border-style: solid;
+    }
+    </style>
 </head>
 
 <body>
     <div id="letterContainer"></div>
     <script type="text/javascript">
-    $("#create").click(function() {
-        $(this).before("<textarea></textarea>");
-    });
+    var positionXY = ["0 0",
+            "10 10",
+            "50 10",
+            "60 60",
+            "60 50",
+            "20 40",
+            "50 20",
+            "30 40",
+        ],
+        letterContainer = $("#letterContainer"),
+        re = /\d+\s/,
+        er = /\s\d+/;
+
+    for (x in positionXY) {
+        // statement
+        // letterContainer.append('Some text');
+        $("<div/>", {
+            class: "letters",
+        }).css({
+            marginLeft: parseInt(positionXY[x].match(re)),
+            marginTop: parseInt(positionXY[x].match(er)),
+            // backgroundColor: "yellow"
+        }).appendTo(letterContainer);
+
+    }
+    // test
+    // var testString = "10 20";
+    // var re = /\d+\s/,
+        // er = /\s\d+/;
+    // letterContainer.append(parseInt(testString.match(re)));
+    // letterContainer.append(parseInt(testString.match(er)));
+    // $("<div/>", {
+    //     class: "letters",
+    // }).css({
+    //     marginLeft: parseInt(testString.match(re)),
+    //     marginTop: parseInt(testString.match(er)),
+    //     backgroundColor: "yellow"
+    // }).appendTo(letterContainer);
     </script>
 </body>
 
