@@ -8,7 +8,6 @@
     .letters {
         width: 20px;
         height: 20px;
-        /*background-color: red;*/
         fill: white; 
         border-color: black;
         border-width: 1px;
@@ -35,8 +34,6 @@
         er = /\s\d+/;
 
     for (x in positionXY) {
-        // statement
-        // letterContainer.append('Some text');
         $("<div/>", {
             class: "letters",
         }).css({
@@ -46,19 +43,7 @@
         }).appendTo(letterContainer);
 
     }
-    // test
-    // var testString = "10 20";
-    // var re = /\d+\s/,
-        // er = /\s\d+/;
-    // letterContainer.append(parseInt(testString.match(re)));
-    // letterContainer.append(parseInt(testString.match(er)));
-    // $("<div/>", {
-    //     class: "letters",
-    // }).css({
-    //     marginLeft: parseInt(testString.match(re)),
-    //     marginTop: parseInt(testString.match(er)),
-    //     backgroundColor: "yellow"
-    // }).appendTo(letterContainer);
+
     </script>
 </body>
 
