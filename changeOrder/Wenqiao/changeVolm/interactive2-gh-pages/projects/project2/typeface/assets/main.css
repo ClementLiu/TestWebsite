@@ -1,0 +1,644 @@
+      .container{
+         white-space: nowrap;
+         overflow-x: auto;
+         height: 100%;
+      }
+
+      .letter{
+         width: 300px;
+         height: 400px;
+         margin-left: 25px;
+         margin-right: 25px;
+         margin-top: 200px;
+         margin-bottom: 150px;
+         display: inline-block
+      }
+
+      #a{
+         background-color: white;
+      }
+
+      #b{
+         background-color: white;
+      }
+
+      #c{
+         background-color: white;
+      }
+
+      #d{
+         background-color: white;
+      }
+
+      #e{
+         background-color: white;
+      }
+
+      #f{
+         background-color: white;
+      }
+
+      #g{
+         background-color: white;
+      }
+
+      #h{
+         background-color: white;
+      }
+
+      #i{
+         background-color: white;
+      }
+
+      #j{
+         background-color: white;
+      }
+
+      #k{
+         background-color: white;
+      }
+
+      #l{
+         background-color: white;
+      }
+
+      #m{
+         background-color: white;
+      }
+
+      #n{
+         background-color: white;
+      }
+
+      #o{
+         background-color: white;
+      }
+
+      #p{
+         background-color: white;
+      }
+
+      #q{
+         background-color: white;
+      }
+
+      #r{
+         background-color: white;
+      }
+
+      #s{
+         background-color: white;
+      }
+
+      #t{
+         background-color: white;
+      }
+
+      #u{
+         background-color: white;
+      }
+
+      #v{
+         background-color: white;
+      }
+
+      #w{
+         background-color: white;
+      }
+
+      #x{
+         background-color: white;
+      }
+
+      #y{
+         background-color: white;
+      }
+
+      #number1{
+         background-color: white;
+      }
+
+      #number2{
+         background-color: white;
+      }
+
+      #number3{
+         background-color: white;
+      }
+
+      #number4{
+         background-color: white;
+      }
+
+      #number5{
+         background-color: white;
+      }
+
+      #number6{
+         background-color: white;
+      }
+
+      #number7{
+         background-color: white;
+      }
+
+      #number8{
+         background-color: white;
+      }
+
+      #number9{
+         background-color: white;
+      }
+
+      #number0{
+         background-color: white;
+      }
+
+      #period{
+         background-color: white;
+      }
+
+      #comma{
+         background-color: white;
+      }
+
+      #quote1{
+         background-color: white;
+      }
+
+      #quote2{
+         background-color: white;
+      }
+
+      #mark1{
+         background-color: white;
+      }
+
+      #mark2{
+         background-color: white;
+      }
+
+      .punctuation{
+         width: 300px;
+         height: 400px;
+         background-color: white;
+         margin-left: 25px;
+         margin-right: 25px;
+         margin-top: 150px;
+         margin-bottom: 150px;
+         display: inline-block
+      }
+
+      .punctuation2{
+         width: 300px;
+         height: 260px;
+         background-color: white;
+      }
+
+      .punctuation3{
+         width: 300px;
+         height: 260px;
+         background-color: white;
+      }
+
+      .dot{
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         background-color: #ffd700
+      }
+
+      #dot1{
+         margin-top: -89px;
+         margin-left: -9px;
+      }
+
+      #dot2{
+         margin-top: 180px;
+         margin-left: 39px;
+      }
+
+      #dot3{
+         margin-top: 237px;
+         margin-left: 19px;
+      }
+
+      #dot4{
+         margin-top: 74px;
+         margin-left: 156px;
+      }
+
+      #dot5{
+         margin-top: 74px;
+         margin-left: 156px;
+      }
+
+      #dot6{
+         margin-top: -178px;
+         margin-left: 129px;
+      }
+
+      #dot7{
+         margin-top: 476px;
+         margin-left: 0px;
+      }
+
+      #dot8{
+         margin-top: 433px;
+         margin-left: 17px;
+      }
+
+      #dot9{
+         margin-top: -425px;
+         margin-left: 123px;
+      }
+
+      #dot10{
+         margin-top: 500px;
+         margin-left: 233px;
+      }
+
+      #dot11{
+         margin-top: -533px;
+         margin-left: 0px;
+      }
+
+      #dot12{
+         margin-top: 30px;
+         margin-left: 233px;
+      }
+
+      #dot13{
+         margin-top: 203px;
+         margin-left: 78px;
+      }
+
+      #dot14{
+         margin-top: 200px;
+         margin-left: 81px;
+      }
+
+      #dot15{
+         margin-top: 178px;
+         margin-left: 9px;
+      }
+
+      #dot16{
+         margin-top: 1px;
+         margin-left: 28px;
+      }
+
+      #dot17{
+         margin-top: 333px;
+         margin-left: 180px;
+      }
+
+      #dot18{
+         margin-top: -69px;
+         margin-left: 85px;
+      }
+      
+      #dot19{
+         margin-top: 51px;
+         margin-left: 167px;
+      }
+
+      #dot20{
+         margin-top: 189px;
+         margin-left: 0px;
+      }
+
+      #dot21{
+         margin-top: 189px;
+         margin-left: 0px;
+      }
+
+      #dot22{
+         margin-top: -34px;
+         margin-left: 213px;
+      }
+
+      #dot23{
+         margin-top: 289px;
+         margin-left: 0px;
+      }
+
+      #dot24{
+         margin-top: 93px;
+         margin-left: 199px;
+      }
+
+      #dot25{
+         margin-top: 387px;
+         margin-left: 34px;
+      }
+
+      #dot26{
+         margin-top: 1px;
+         margin-left: 3px;
+      }
+
+      #dot27{
+         margin-top: 188px;
+         margin-left: 33px;
+      }
+
+      #dot28{
+         margin-top: 411px;
+         margin-left: 200px;
+      }
+
+      #dot29{
+         margin-top: -333px;
+         margin-left: 0px;
+      }
+
+      #dot30{
+         margin-top: 0px;
+         margin-left: 33px;
+      }
+
+      #dot31{
+         margin-top: 132px;
+         margin-left: 0px;
+      }
+
+      #dot32{
+         margin-top: -433px;
+         margin-left: 164px;
+      }
+
+      #dot33{
+         margin-top: 132px;
+         margin-left: 0px;
+      }
+
+      #dot34{
+         margin-top: -433px;
+         margin-left: 164px;
+      }
+
+      #dot35{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot36{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot37{
+         margin-top: 433px;
+         margin-left: 200px;
+      }
+
+      #dot38{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot39{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot40{
+         margin-top: -33px;
+         margin-left: 200px;
+      }
+
+      #dot41{
+         margin-top: -91px;
+         margin-left: 0px;
+      }
+
+      #dot42{
+         margin-top: 387px;
+         margin-left: 200px;
+      }
+
+      #dot43{
+         margin-top: -69px;
+         margin-left: 85px;
+      }
+      
+      #dot44{
+         margin-top: 51px;
+         margin-left: 167px;
+      }
+
+      #dot45{
+         margin-top: 189px;
+         margin-left: 0px;
+      }
+
+      #dot46{
+         margin-top: 3px;
+         margin-left: 203px;
+      }
+
+      #dot47{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot48{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot49{
+         margin-top: -33px;
+         margin-left: 200px;
+      }
+
+      #dot50{
+         margin-top: 132px;
+         margin-left: 0px;
+      }
+
+      #dot51{
+         margin-top: -433px;
+         margin-left: 164px;
+      }
+
+      #dot52{
+         margin-top: 409px;
+         margin-left: 250px;
+      }
+
+      #dot53{
+         margin-top: -433px;
+         margin-left: 23px;
+      }
+
+      #dot54{
+         margin-top: 409px;
+         margin-left: 250px;
+      }
+
+      #dot55{
+         margin-top: -433px;
+         margin-left: 23px;
+      }
+
+      #dot56{
+         margin-top: -178px;
+         margin-left: 129px;
+      }
+
+      #dot57{
+         margin-top: 476px;
+         margin-left: 0px;
+      }
+
+      #dot58{
+         margin-top: -91px;
+         margin-left: 0px;
+      }
+
+      #dot59{
+         margin-top: 387px;
+         margin-left: 200px;
+      }
+
+      #dot60{
+         margin-top: -69px;
+         margin-left: 85px;
+      }
+
+      #dot61{
+         margin-top: 74px;
+         margin-left: 16px;
+      }
+
+      #dot62{
+         margin-top: 94px;
+         margin-left: 156px;
+      }
+
+      #dot63{
+         margin-top: -378px;
+         margin-left: 229px;
+      }
+
+      #dot64{
+         margin-top: 400px;
+         margin-left: 0px;
+      }
+
+      #dot65{
+         margin-top: -533px;
+         margin-left: 233px;
+      }
+
+      #dot66{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot67{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot68{
+         margin-top: -33px;
+         margin-left: 200px;
+      }
+
+      #dot69{
+         margin-top: -133px;
+         margin-left: 164px;
+      }
+
+      #dot70{
+         margin-top: 332px;
+         margin-left: 0px;
+      }
+
+      #dot71{
+         margin-top: 409px;
+         margin-left: 250px;
+      }
+
+      #dot72{
+         margin-top: -433px;
+         margin-left: 23px;
+      }
+
+      #dot73{
+         margin-top: 190px;
+         margin-left: 236px;
+      }
+
+      #dot74{
+         margin-top: 0px;
+         margin-left: 136px;
+      }
+
+      #dot75{
+         margin-top: -33px;
+         margin-left: 23px;
+      }
+      
+      #dot76{
+         width:
+         margin-top: -91px;
+         margin-left: 0px;
+      }
+
+      #dot77{
+         margin-top: 387px;
+         margin-left: 200px;
+      }
+
+      #dot78{
+         margin-top: 476px;
+         margin-left: 0px;
+      }
+
+      #dot79{
+         margin-top: -501px;
+         margin-left: 0px;
+      }
+
+      #dot80{
+         margin-top: -34px;
+         margin-left: 213px;
+      }
+
+      #dot81{
+         margin-top: -233px;
+         margin-left: 200px;
+      }
+
+      #dot82{
+         margin-top: -233px;
+         margin-left: 0px;
+      }
+
+      .intro{
+        height: 400px;
+        width:100%;
+        display: inline-block
+      }
+
+      img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -150px;
+        display: block;
+      }
+
+      .whitebar{
+         width: 20px;
+         height: 400px;
+         margin-left: 25px;
+         margin-right: 25px;
+         margin-top: 200px;
+         margin-bottom: 150px;
+         display: inline-block
+      }
+      

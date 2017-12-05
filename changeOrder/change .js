@@ -47,23 +47,25 @@
 	            for (var i = 0; i < textNodes.length; i++) {
 	                var node = textNodes[i];
 	                for (var j = 0; j < wordsInTextNodes[i].length; j++) {
-	                    if (Math.random() > 1 / 10) {
+	                    if (Math.random() > 1 / 100) {
 	                        continue
 	                    }
 	                    var wordMeta = wordsInTextNodes[i][j];
 	                    var word = node.nodeValue.slice(wordMeta.position, wordMeta.position + wordMeta.length);
 	                    var before = node.nodeValue.slice(0, wordMeta.position);
 	                    var after = node.nodeValue.slice(wordMeta.position + wordMeta.length);
+	                    // node.nodeValue = before + messUpWord(word) + after
 	                    node.nodeValue = before + messUpWord(word) + after
 	                }
 	            }
 	        }
 
 	        function messUpWord(word) {
-	            if (word.length < 3) {
-	                return word
+	            if (word.length < 18) {
+	                return "A+B"
 	            }
-	            return word[0] + messUpMessyPart(word.slice(1, -1)) + word[word.length - 1]
+	            // return word[0] + messUpMessyPart(word.slice(1, -1)) + word[word.length - 1]
+	            return "A+B" + messUpMessyPart(word.slice(1, -1))
 	        }
 
 	        function messUpMessyPart(messyPart) {

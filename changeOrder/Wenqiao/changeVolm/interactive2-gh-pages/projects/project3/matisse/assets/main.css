@@ -1,0 +1,137 @@
+@font-face {
+    font-family: FuturaPTExtraBold;
+    src: url(FuturaPTExtraBold.otf);
+}
+
+@font-face {
+    font-family: FuturaPTLight;
+    src: url(FuturaPTLight.otf);
+}
+
+@font-face {
+    font-family: FuturaPTHeavy;
+    src: url(FuturaPTHeavy.otf);
+}
+
+.subhead{
+  position: relative;
+  float: left;
+
+  font-family: FuturaPTExtraBold, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: small-caps;
+  line-height: 30px;
+  letter-spacing: 1px;
+
+  color: #0040c5;
+  text-align: right;
+  margin-top: -10px;
+  width: 20%;
+}
+
+.text{
+  position: relative;
+  float: left;
+
+  font-family: FuturaPTLight, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 65px;
+
+  color: black;
+  margin-top: -30px;
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 55%;
+  height: 680px;
+  overflow: scroll;
+  }
+
+.subhead2{
+  position: relative;
+  float: left;
+
+  font-family: FuturaPTExtraBold, sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-variant: small-caps;
+  line-height: 30px;
+  letter-spacing: 1px;
+
+  color: #0040c5;
+  margin-left: 0px;
+  margin-top: 100px;
+  text-align: right;
+  width: 20%;
+}
+
+.text2{
+  position: relative;
+  float: left;
+
+  font-family: FuturaPTLight, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 65px;
+
+  color: black;
+  margin-top: 78px;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 75px;
+  width: 55%;
+  height: 680px;
+  overflow: scroll;
+  }
+
+  #paragraphtitles{
+  font-family: FuturaPTHeavy, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 65px;
+  color: #0040c5;
+  }
+
+  #draggable1{
+  position: absolute;
+  width: 50px;
+
+  margin-top: 70px;
+  margin-left: 530px;
+  }
+
+  #draggable2{
+  position: absolute;
+  width: 50px;
+
+  margin-top: 100px;
+  margin-left: 750px;
+  }
+
+  #draggable3{
+  position: absolute;
+  width: 50px;
+
+  margin-top: 250px;
+  margin-left: 630px;
+  }
+
+  #draggable4{
+  position: absolute;
+  width: 50px;
+
+  margin-top: 450px;
+  margin-left: 500px;
+  }
+
+  #draggable5{
+  position: absolute;
+  width: 50px;
+
+  margin-top: 410px;
+  margin-left: 780px;
+  }
