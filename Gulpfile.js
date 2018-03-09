@@ -6,7 +6,7 @@ gulp.task('styles', function() {
     gulp.src('sass/**/*.scss')
         .pipe(sass({ outputStyle: 'nested' }).on('error', sass.logError))
         .pipe(autoprefixer({
-            browsers: ['last 3 versions'],
+            browsers: ['> 5%'],
             cascade: false
         }))
         .pipe(gulp.dest('./css/'));
