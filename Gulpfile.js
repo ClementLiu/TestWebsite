@@ -9,7 +9,7 @@ gulp.task('styles', function() {
             browsers: ['> 5%'],
             cascade: false
         }))
-        .pipe(gulp.dest('./css/'));
+        .pipe(gulp.dest('./style/'));
 });
 
 //Watch task
